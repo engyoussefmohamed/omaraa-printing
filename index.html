@@ -42,7 +42,26 @@
       flex-shrink: 0;
     }
     .hdr-text h1 { font-size: .96rem; color: var(--gold); font-weight: 800; letter-spacing: .2px; }
-    .hdr-text p  { font-size: .65rem; color: var(--muted); margin-top: 1px; }
+
+    /* ══════════════ TAGLINE BANNER ══════════════ */
+    .tagline-bar {
+      background: linear-gradient(90deg, var(--navy) 0%, #1a3a6e 50%, var(--navy) 100%);
+      border-bottom: 1px solid rgba(201,168,76,.3);
+      padding: 9px 16px;
+      text-align: center;
+    }
+    .tagline-bar p {
+      font-size: .82rem;
+      color: var(--gold);
+      font-weight: 600;
+      letter-spacing: .4px;
+    }
+    .tagline-bar span {
+      display: inline-block;
+      margin: 0 8px;
+      opacity: .5;
+      font-size: .65rem;
+    }
 
     /* ══════════════ HERO ══════════════ */
     .hero {
@@ -229,9 +248,13 @@
   <img class="logo" src="assets/logo.jpeg" alt="الأمراء للطباعة" />
   <div class="hdr-text">
     <h1>الأمراء للطباعة</h1>
-    <p>شريكك في النجاح الأكاديمي والمهني</p>
   </div>
 </header>
+
+<!-- ── TAGLINE BANNER ── -->
+<div class="tagline-bar">
+  <p><span>✦</span> شريكك في النجاح الأكاديمي والمهني <span>✦</span></p>
+</div>
 
 <!-- ── HERO ── -->
 <div class="hero">
